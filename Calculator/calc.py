@@ -35,7 +35,7 @@ root.resizable(False,False)
 root.config(bg='black')
 root.title('Calculator')
 
-my_image = ImageTk.PhotoImage(file="C:/Users/CHAMPIKA/Desktop/calculator.jpg")
+my_image = ImageTk.PhotoImage(file="C:/Users/CHAMPIKA/Documents/GitHub/Champika98/Calculator/image/calculator.jpg")
 lb1_image = tk.Label(root, image=my_image, bd=0).place(x=0, y=0)
 
 text_result = tk.Text(root, height=2, font=('calibri', 30, 'bold'), bg="#9e8989", fg='white', bd=0)
